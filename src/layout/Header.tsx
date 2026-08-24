@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import NavItem from "./NavItem";
+import logo from "../assets/logo.png";
 
 const navItems = [
     { label: "ABOUT", href: "/about" },
@@ -11,8 +12,18 @@ const navItems = [
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const { pathname } = useLocation();
+    const isHome = pathname === "/";
 
-    return (
+    return isHome ? (
+        <header className="border-b border-primary/10">
+            <div className="max-w-7xl mx-auto 3xl:max-w-[1600px] flex items-center justify-center h-16 px-4">
+                <Link to="/" className="flex items-center">
+                    <img src={logo} alt="2eo" className="w-12 h-auto" />
+                </Link>
+            </div>
+        </header>
+    ) : (
         <header className="border-b border-primary/10">
             <div className="max-w-7xl mx-auto 3xl:max-w-[1600px] grid grid-cols-[auto_1fr_auto] lg:grid-cols-[1fr_auto_1fr] items-center h-16 px-4 gap-4">
                 <div className="flex items-center gap-3">
@@ -28,8 +39,8 @@ export default function Header() {
                         <span className="block w-5 h-0.5 bg-primary" />
                     </button>
 
-                    <Link to="/" className="text-lg font-semibold text-primary">
-                        2eo
+                    <Link to="/" className="flex items-center">
+                        <img src={logo} alt="2eo" className="w-16 h-auto" />
                     </Link>
                 </div>
 

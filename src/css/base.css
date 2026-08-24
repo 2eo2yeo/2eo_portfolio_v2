@@ -2,10 +2,20 @@
 
 @theme {
     --color-primary: #333333;
+    --color-accent: #CCBEF1;
     --font-sans: "Pretendard", sans-serif;
+    --font-silkscreen: "Silkscreen", sans-serif;
     --breakpoint-3xl: 120rem;
 }
 
+body {
+    color: color-mix(in srgb, var(--color-primary) 80%, transparent);
+}
+
+::selection {
+    background-color: #CCBEF1;
+    color: #fff;
+}
 
 
 /* font : pretendard */

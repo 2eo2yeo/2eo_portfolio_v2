@@ -11,7 +11,7 @@ export default function Layout({ children }: LayoutProps) {
     return (
         <>
             <Header />
-            <main className="max-w-7xl mx-auto px-4 3xl:max-w-[1600px]">
+            <main className="max-w-7xl mx-auto px-4 py-15 3xl:max-w-[1600px]">
                 {children}
             </main>
             <Footer />
