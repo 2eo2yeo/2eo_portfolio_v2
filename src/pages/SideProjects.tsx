@@ -1,5 +1,5 @@
+import ProjectList from "../components/ProjectList";
+
 export default function SideProjects() {
-    return (
-        <div>Side Projects</div>
-    );
+    return <ProjectList dataUrl="/data/side-projects.json" />;
 }

@@ -1,3 +1,6 @@
-html {
-    scroll-behavior: smooth;
+
+
+@keyframes arrow-line-fill {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
 }

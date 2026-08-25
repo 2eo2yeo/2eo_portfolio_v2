@@ -1,5 +1,5 @@
+import ProjectList from "../components/ProjectList";
+
 export default function Work() {
-    return (
-        <div>Work</div>
-    );
+    return <ProjectList dataUrl="/data/work.json" />;
 }

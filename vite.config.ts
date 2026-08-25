@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(),  
+    tailwindcss(),
   ],
+  base: '/2eo_portfolio_v2/',
 })

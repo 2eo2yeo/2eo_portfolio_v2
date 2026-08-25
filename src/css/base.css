@@ -8,14 +8,36 @@
     --breakpoint-3xl: 120rem;
 }
 
-body {
-    color: color-mix(in srgb, var(--color-primary) 80%, transparent);
+body, html {
+    color: color-mix(in srgb, var(--color-primary) 70%, transparent);
+    scroll-behavior: smooth;
 }
+
+
 
 ::selection {
     background-color: #CCBEF1;
     color: #fff;
 }
+
+html {
+    scrollbar-color: var(--color-accent) #E8E8EC;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #E8E8EC;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-accent);
+    border-radius: 999px;
+}
+
+
 
 
 /* font : pretendard */
@@ -82,3 +104,4 @@ body {
     font-weight: 900;
     font-display: swap;
 }
+
