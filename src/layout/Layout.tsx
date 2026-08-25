@@ -10,8 +10,8 @@ interface LayoutProps {
 }
 
 const navItems = [
-    { label: "WORK", href: "/work", dataUrl: "/data/work.json" },
-    { label: "SIDE PROJECT", href: "/side-projects", dataUrl: "/data/side-projects.json" },
+    { label: "WORK", href: "/work", dataUrl: `${import.meta.env.BASE_URL}data/work.json` },
+    { label: "SIDE PROJECT", href: "/side-projects", dataUrl: `${import.meta.env.BASE_URL}data/side-projects.json` },
 ];
 
 export default function Layout({ children }: LayoutProps) {

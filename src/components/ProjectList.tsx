@@ -110,7 +110,7 @@ export default function ProjectList({ dataUrl }: ProjectListProps) {
                         <div className="w-full rounded shadow-lg lg:w-1/2">
                             <div className="overflow-hidden rounded">
                                 <img
-                                    src={item.image}
+                                    src={`${import.meta.env.BASE_URL}${item.image.replace(/^\//, "")}`}
                                     alt={item.subject}
                                     className="aspect-4/3 w-full scale-100 object-cover transition-transform duration-300 hover:scale-110"
                                 />
