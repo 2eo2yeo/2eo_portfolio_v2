@@ -1,7 +1,7 @@
 [
     {
         "id": "01",
-        "image": "/img/side_1_1.jpg",
+        "image": "img/side_1_1.jpg",
         "subject": "정서령 포트폴리오 ver2",
         "period": "2026.08",
         "stack": ["React", "TypeScript", "tailwindCSS","framer-motion"],
@@ -19,7 +19,7 @@
     },
     {
         "id": "02",
-        "image": "img/project_dummy.png",
+        "image": "img/side_2_1.png",
         "subject": "진에어(항공권 예매 사이트) 벤치마킹 5인 팀프로젝트",
         "period": "2025.03 - 2025.04",
         "stack": ["React", "Node.js", "MySQL","Sass","Express","Redux"],
@@ -44,7 +44,7 @@
     },
     {
         "id": "03",
-        "image": "img/project_dummy.png",
+        "image": "img/side_3_1.png",
         "subject": "뷰티컬리(이커머스) 벤치마킹 4인 팀프로젝트",
         "period": "2025.03 ~ 2025.04",
         "stack": ["React", "Node.js", "MySQL","Sass","Express"],
@@ -68,7 +68,7 @@
     },
     {
         "id": "04",
-        "image": "img/project_dummy.png",
+        "image": "img/side_4_1.png",
         "subject": "조선미녀(뷰티 쇼핑몰) 벤치마킹 4인 팀프로젝트",
         "period": "2025.03 ~ 2025.04",
         "stack": ["React", "Node.js", "MySQL","Sass","Express"],
@@ -91,7 +91,7 @@
     },
     {
         "id": "05",
-        "image": "img/project_dummy.png",
+        "image": "img/side_3_1.png",
         "subject": "정서령 포트폴리오 ver1 (PC전용)",
         "period": "2025.08",
         "stack": ["React", "TypeScript", "tailwindCSS","framer-motion"],

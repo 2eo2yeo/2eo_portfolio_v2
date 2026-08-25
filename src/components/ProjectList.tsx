@@ -105,7 +105,7 @@ export default function ProjectList({ dataUrl }: ProjectListProps) {
                             if (el) sectionRefs.current.set(item.id, el);
                             else sectionRefs.current.delete(item.id);
                         }}
-                        className="flex w-full max-w-300 flex-col gap-6 scroll-mt-20 pl-1 pr-2 mx-auto sm:pr-5 lg:flex-row"
+                        className="flex w-full max-w-300 flex-col gap-6 scroll-mt-20 pl-2 pr-3 mx-auto sm:pr-5 lg:flex-row lg:items-start"
                     >
                         <div className="w-full rounded shadow-lg lg:w-1/2">
                             <div className="overflow-hidden rounded">
@@ -117,10 +117,10 @@ export default function ProjectList({ dataUrl }: ProjectListProps) {
                             </div>
                         </div>
 
-                        <div className="w-full rounded bg-gray-50 p-4 lg:w-1/2">
-                            <h2 className="text-lg font-bold">{item.subject}</h2>
-                            <p className="text-sm text-primary/60">{item.period}</p>
-                            <div className="mt-2 flex flex-wrap gap-1.5">
+                        <div className="w-full rounded bg-gray-50 p-4 md:p-10 lg:w-1/2">
+                            <h2 className="text-md md:text-lg font-bold">{item.subject}</h2>
+                            <p className="text-xs md:text-sm text-primary/60">{item.period}</p>
+                            <div className="mt-2 flex flex-wrap gap-1">
                                 {item.stack.map((tech) => (
                                     <span
                                         key={tech}
