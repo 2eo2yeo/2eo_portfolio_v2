@@ -13,13 +13,13 @@
         "desc": [
             "디자인 직접 기획 및 제작",
             "반응형 웹 구현",
-            "데이터 Json파일로 분리하여 유지보수, 재사용성 강화",
+            "프로젝트 데이터를 Json파일로 분리하여 유지보수, 재사용성 강화",
            " github pages를 통한 퍼블리싱"
         ]
     },
     {
         "id": "02",
-        "image": "/img/project_dummy.png",
+        "image": "img/project_dummy.png",
         "subject": "진에어(항공권 예매 사이트) 벤치마킹 5인 팀프로젝트",
         "period": "2025.03 - 2025.04",
         "stack": ["React", "Node.js", "MySQL","Sass","Express","Redux"],
@@ -44,7 +44,7 @@
     },
     {
         "id": "03",
-        "image": "/img/project_dummy.png",
+        "image": "img/project_dummy.png",
         "subject": "뷰티컬리(이커머스) 벤치마킹 4인 팀프로젝트",
         "period": "2025.03 ~ 2025.04",
         "stack": ["React", "Node.js", "MySQL","Sass","Express"],
@@ -68,7 +68,7 @@
     },
     {
         "id": "04",
-        "image": "/img/project_dummy.png",
+        "image": "img/project_dummy.png",
         "subject": "조선미녀(뷰티 쇼핑몰) 벤치마킹 4인 팀프로젝트",
         "period": "2025.03 ~ 2025.04",
         "stack": ["React", "Node.js", "MySQL","Sass","Express"],
@@ -91,7 +91,7 @@
     },
     {
         "id": "05",
-        "image": "/img/project_dummy.png",
+        "image": "img/project_dummy.png",
         "subject": "정서령 포트폴리오 ver1 (PC전용)",
         "period": "2025.08",
         "stack": ["React", "TypeScript", "tailwindCSS","framer-motion"],

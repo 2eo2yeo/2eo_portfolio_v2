@@ -1,7 +1,7 @@
 [
     {
         "id": "01",
-        "image": "/img/work_1_1.jpg",
+        "image": "img/work_1_1.jpg",
         "subject": "악세서리 쇼핑몰 일본 자사몰 제작",
         "period": "2026.07",
         "stack": ["CAFE24", "jQuery", "Swiper"],
@@ -18,7 +18,7 @@
     },
     {
         "id": "02",
-        "image": "/img/work_2_1.jpg",
+        "image": "img/work_2_1.jpg",
         "subject": "국내 뷰티 브랜드 해외 자사몰 제작",
         "period": "2026.06",
         "stack": ["Shopify", "LIQUID", "Shopify CLI", "Swiper"],
@@ -33,7 +33,7 @@
     },
     {
         "id": "03",
-        "image": "/img/work_3_1.jpg",
+        "image": "img/work_3_1.jpg",
         "subject": "해외 브랜드 국내 공식 유통사 홈페이지",
         "period": "2026.06",
         "stack": ["CAFE24", "jQuery", "Swiper"],
@@ -50,7 +50,7 @@
     },
     {
         "id": "04",
-        "image": "/img/work_4_1.jpg",
+        "image": "img/work_4_1.jpg",
         "subject": "스포츠 브랜드 국내 자사몰",
         "period": "2026.05",
         "stack": ["CAFE24", "jQuery", "Swiper"],
@@ -65,7 +65,7 @@
     },
     {
         "id": "05",
-        "image": "/img/work_5_1.jpg",
+        "image": "img/work_5_1.jpg",
         "subject": "소품 브랜드 자사몰 제작",
         "period": "2023.09 - 2023.12",
         "stack": ["CAFE24", "jQuery", "Swiper"],
@@ -81,7 +81,7 @@
     },
     {
         "id": "06",
-        "image": "/img/work_6_1.jpg",
+        "image": "img/work_6_1.jpg",
         "subject": "건강기능식품 브랜드 자사몰 제작",
         "period": "2026.06",
         "stack": ["CAFE24", "jQuery", "Swiper"],
@@ -95,7 +95,7 @@
     },
     {
         "id": "07",
-        "image": "/img/work_7_1.jpg",
+        "image": "img/work_7_1.jpg",
         "subject": "건기식 브랜드 자사몰 제작",
         "period": "2025.12",
         "stack": ["CAFE24", "jQuery", "Swiper"],
@@ -109,7 +109,7 @@
     },
     {
         "id": "08",
-        "image": "/img/work_8_1.jpg",
+        "image": "img/work_8_1.jpg",
         "subject": "약국 화장품 브랜드 자사몰 제작",
         "period": "2025.09",
         "stack": ["CAFE24", "jQuery", "Swiper"],
@@ -124,7 +124,7 @@
     },
     {
         "id": "09",
-        "image": "/img/work_9_1.jpg",
+        "image": "img/work_9_1.jpg",
         "subject": "해외 주방용품 브랜드 국내 자사몰 게시판 리뉴얼",
         "period": "2026.07",
         "stack": ["CAFE24", "jQuery", "Swiper"],
