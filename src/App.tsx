@@ -1,7 +1,4 @@
-import { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 import Layout from "./layout/Layout";
 import ScrollToTop from "./layout/ScrollToTop";
@@ -10,13 +7,6 @@ import Work from "./pages/Work";
 import SideProjects from "./pages/SideProjects";
 
 export default function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 600,
-      once: true,
-    });
-  }, []);
-
   return (
     <Layout>
       <ScrollToTop />

@@ -7,7 +7,7 @@ React + TypeScript + Vite 기반으로 제작
 
 ## Stack
 
-React · TypeScript · Vite · Tailwind CSS v4 · React Router · AOS · framer-motion · react-icons
+React · TypeScript · Vite · Tailwind CSS v4 · React Router · framer-motion · react-icons
 
 ## 구조
 
@@ -31,7 +31,7 @@ src/
 │   ├── Home.tsx                 /
 │   ├── Work.tsx                 /work   
 │   └── SideProjects.tsx         /side-projects
-├── App.tsx                     Routes 정의 + AOS 초기화
+├── App.tsx                     Routes 정의
 └── main.tsx                    
 ```
 

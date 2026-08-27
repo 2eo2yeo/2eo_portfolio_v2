@@ -71,7 +71,13 @@ function RevealText({ text }: { text: string }) {
 export default function Home() {
     return (
         <>
-        <div className="home_wrap max-w-130 py-6 px-2 mx-auto " data-aos="fade-up">
+        <motion.div
+            className="home_wrap max-w-130 py-6 px-2 mx-auto "
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+        >
             <div className="text-wrap leading-[1.8] text-sm md:text-base">
                 <h1 className="text-xl font-bold lg:text-3xl font-silkscreen mb-1" >
                     I BUILD FOR THE WEB<span className="text-accent">.</span>
@@ -128,7 +134,7 @@ export default function Home() {
                     </li>
                 ))}
             </ul>
-        </div>
+        </motion.div>
 
         <FloatingNavButton to="/work" topLine="VIEW" bottomLine="WORK" />
         </>
