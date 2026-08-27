@@ -1,6 +1,6 @@
 import { motion, type Variants } from "framer-motion";
 import CursorHintLink from "../components/CursorHintLink";
-import FloatingWorkButton from "../components/FloatingWorkButton";
+import FloatingNavButton from "../components/FloatingNavButton";
 
 import { IoMdMail } from "react-icons/io";
 import { SiVelog } from "react-icons/si";
@@ -130,7 +130,7 @@ export default function Home() {
             </ul>
         </div>
 
-        <FloatingWorkButton />
+        <FloatingNavButton to="/work" topLine="VIEW" bottomLine="WORK" />
         </>
     );
 }

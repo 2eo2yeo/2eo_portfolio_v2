@@ -23,7 +23,7 @@ function WaveText({ text, startDelay = 0 }: { text: string; startDelay?: number 
                             repeatDelay: CYCLE_GAP,
                         }}
                     >
-                        {char === " " ? " " : char}
+                        {char === " " ? " " : char}
                     </motion.span>
                 </span>
             ))}
@@ -31,12 +31,18 @@ function WaveText({ text, startDelay = 0 }: { text: string; startDelay?: number 
     );
 }
 
-export default function FloatingWorkButton() {
+interface FloatingNavButtonProps {
+    to: string;
+    topLine: string;
+    bottomLine: string;
+}
+
+export default function FloatingNavButton({ to, topLine, bottomLine }: FloatingNavButtonProps) {
     return (
-        <Link to="/work" className="floating-work-btn font-silkscreen" aria-label="View work">
+        <Link to={to} className="floating-nav-btn font-silkscreen" aria-label={`${topLine} ${bottomLine}`}>
             <span className="flex flex-col items-center leading-tight">
-                <WaveText text="VIEW" />
-                <WaveText text="WORK" startDelay={0.3} />
+                <WaveText text={topLine} />
+                <WaveText text={bottomLine} startDelay={0.3} />
             </span>
         </Link>
     );
