@@ -23,7 +23,7 @@ interface ProjectListProps {
 const NAV_WINDOW_SIZE = 5;
 
 function handleUnavailableLink() {
-    alert("쇼핑몰 운영상의 이유로 호스팅이 중단되었습니다");
+    alert("쇼핑몰 운영상의 이유로 링크 연동을 중단하였습니다.");
 }
 
 function getNavWindow(items: ProjectItem[], activeIndex: number) {
