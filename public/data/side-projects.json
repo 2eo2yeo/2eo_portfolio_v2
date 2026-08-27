@@ -90,7 +90,7 @@
     },
     {
         "id": "05",
-        "image": "img/side_5_1.png",
+        "image": "img/side_5_1.jpg",
         "subject": "정서령 포트폴리오 ver1 (PC전용)",
         "period": "2025.08",
         "stack": ["React", "TypeScript", "tailwindCSS","framer-motion"],
