@@ -83,7 +83,7 @@
     },
     {
         "id": "06",
-        "image": "img/work_6_1.jpg",
+        "image": "img/work_6_1_m.jpg",
         "subject": "건강기능식품 브랜드 자사몰 제작",
         "period": "2026.06",
         "stack": ["CAFE24", "jQuery", "Swiper"],
