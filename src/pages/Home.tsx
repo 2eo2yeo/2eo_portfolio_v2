@@ -1,5 +1,6 @@
 import { motion, type Variants } from "framer-motion";
 import CursorHintLink from "../components/CursorHintLink";
+import FloatingWorkButton from "../components/FloatingWorkButton";
 
 import { IoMdMail } from "react-icons/io";
 import { SiVelog } from "react-icons/si";
@@ -70,7 +71,7 @@ function RevealText({ text }: { text: string }) {
 export default function Home() {
     return (
         <div className="home_wrap max-w-130 py-6 px-2 mx-auto " data-aos="fade-up">
-            <div className="text-wrap leading-[1.8] text-xs md:text-base">
+            <div className="text-wrap leading-[1.8] text-sm md:text-base">
                 <h1 className="text-xl font-bold lg:text-3xl font-silkscreen mb-1" >
                     I BUILD FOR THE WEB<span className="text-accent">.</span>
                 </h1>
@@ -126,6 +127,8 @@ export default function Home() {
                     </li>
                 ))}
             </ul>
+
+            <FloatingWorkButton />
         </div>
     );
 }
