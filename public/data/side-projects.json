@@ -7,8 +7,7 @@
         "stack": ["React", "TypeScript", "tailwindCSS","framer-motion"],
         "links": {
             "link": "https://2eo2yeo.github.io/2eo_portfolio_v2/",
-            "github": "https://github.com/2eo2yeo/2eo_portfolio_v2",
-            "youtube": "https://youtube.com"
+            "github": "https://github.com/2eo2yeo/2eo_portfolio_v2"
         },
         "desc": [
             "디자인 직접 기획 및 제작",
