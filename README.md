@@ -1,6 +1,7 @@
-# 2eo Portfolio v2
+💡취업용 포폴입니다
 
-React + TypeScript + Vite 기반으로 제작
+# 2eo Portfolio v2
+React + TypeScript + Vite 기반으로 제작하였습니다
 
 - Demo: https://2eo2yeo.github.io/2eo_portfolio_v2/
 - Repo: https://github.com/2eo2yeo/2eo_portfolio_v2
