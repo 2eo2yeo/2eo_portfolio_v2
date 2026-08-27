@@ -96,8 +96,7 @@
         "stack": ["React", "TypeScript", "tailwindCSS","framer-motion"],
         "links": {
             "link": "https://2eo2yeo.github.io/2eo_portfolio/",
-            "github": "https://github.com/2eo2yeo",
-            "youtube": "https://youtube.com"
+            "github": "https://github.com/2eo2yeo"
         },
         "desc": [
             "제작 중 취업되어 PC 전용으로만 제작되었습니다.",
