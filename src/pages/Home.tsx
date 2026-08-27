@@ -16,7 +16,7 @@ const contact_list = [
 
 const handleCopy = (text: string) => {
     navigator.clipboard.writeText(text);
-    alert("복사되었습니다");
+    alert("메일주소가 복사되었습니다");
 };
 
 /* reveal */
