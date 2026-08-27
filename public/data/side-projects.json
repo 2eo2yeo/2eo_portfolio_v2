@@ -10,7 +10,7 @@
             "github": "https://github.com/2eo2yeo/2eo_portfolio_v2"
         },
         "desc": [
-            "디자인 직접 기획 및 제작",
+            "UIUX 기획 및 개발",
             "반응형 웹 구현",
             "프로젝트 데이터를 Json파일로 분리하여 유지보수, 재사용성 강화",
            " github pages를 통한 퍼블리싱"
@@ -90,7 +90,7 @@
     },
     {
         "id": "05",
-        "image": "img/side_3_1.png",
+        "image": "img/side_5_1.png",
         "subject": "정서령 포트폴리오 ver1 (PC전용)",
         "period": "2025.08",
         "stack": ["React", "TypeScript", "tailwindCSS","framer-motion"],
