@@ -16,8 +16,8 @@ src/
 ├── assets/
 ├── components/
 │   ├── CursorHintLink.tsx    커서 호버 힌트가 붙은 링크 컴포넌트
-│   ├── NavDots.tsx           섹션 네비게이션 dot
-│   └── ProjectList.tsx       dataUrl로 받은 JSON을 렌더링 (work/side-projects 공용)
+│   ├── NavDots.tsx           섹션 네비게이션
+│   └── ProjectList.tsx       WORK, SIDE PROJECT 탬플릿 (JSON 데이터 렌더링)
 ├── css/
 │   ├── base.css               Tailwind 변수 설정, @theme 토큰, @font-face
 │   └── style.css              커스텀 CSS
