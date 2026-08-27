@@ -193,7 +193,7 @@
         "image": "img/work_13_1.jpg",
         "subject": "운송 솔루션 퍼블리싱 작업",
         "period": "2025.10",
-        "stack": ["Bootstrap", "jQuery", "Swiper"],
+        "stack": ["Bootstrap", "Swiper"],
         "links": {
             
         },
