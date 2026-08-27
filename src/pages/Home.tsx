@@ -70,6 +70,7 @@ function RevealText({ text }: { text: string }) {
 
 export default function Home() {
     return (
+        <>
         <div className="home_wrap max-w-130 py-6 px-2 mx-auto " data-aos="fade-up">
             <div className="text-wrap leading-[1.8] text-sm md:text-base">
                 <h1 className="text-xl font-bold lg:text-3xl font-silkscreen mb-1" >
@@ -84,7 +85,7 @@ export default function Home() {
                     </CursorHintLink> <br />을 제작하며 UI/UX와 솔루션 관리자 연동을 고려해<br /> 편리한 사용자 경험을 구현했습니다.
                 </p>
                 <p className="mb-3">
-                    Claude Code · Shopify CLI 또한 실무에 적극 활용하고 있습니다.
+                    Claude Code · Shopify CLI 또한 <br className="block sm:hidden" /> 실무에 적극 활용하고 있습니다.
                 </p>
 
                 <p className="mb-3">
@@ -92,7 +93,7 @@ export default function Home() {
                 </p>
                 <p className="mb-3">
                     React · TypeScript · Node.js · MySQL · Redux 를<br /> 활용한 <CursorHintLink to="/side-projects"><strong className="text-accent">팀 프로젝트</strong></CursorHintLink> 와 AWS 배포를 경험했으며,<br />
-                    Framer Motion · Tailwind CSS · Swiper · AOS · Bootstrap · jQuery 등 <br className="hidden sm:block" /> 다양한 라이브러리를 다뤄봤습니다.
+                    Framer Motion · Tailwind CSS · Swiper · AOS · <br className="block sm:hidden" />Bootstrap · jQuery 등 <br className="hidden sm:block" /> 다양한 라이브러리를 다뤄봤습니다.
                 </p>
 
                 <p className="mb-3">
@@ -127,8 +128,9 @@ export default function Home() {
                     </li>
                 ))}
             </ul>
-
-            <FloatingWorkButton />
         </div>
+
+        <FloatingWorkButton />
+        </>
     );
 }
